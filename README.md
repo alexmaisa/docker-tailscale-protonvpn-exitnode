@@ -34,14 +34,14 @@ Ensure you have the following installed:
   - ProtonVPN
   - Tailscale
 
-Directory structure
+### 📁 Directory Structure
 
 .</br>
 ├── gluetun/</br>
 ├── compose.yaml</br>
 └── README.md
 
-🔑 Step 1: Prepare Credentials and Update compose.yaml
+### 🔑 Step 1: Prepare Credentials and Update compose.yaml
 
 🔐 ProtonVPN
 1.  Create WireGuard configuration\
@@ -55,4 +55,4 @@ Directory structure
 2.  Update compose.yaml\
     Update - TS_AUTHKEY= with Auth Key that generated before.
 
-▶️ Step 2: Start the Services
+### ▶️ Step 2: Start the Services
