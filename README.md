@@ -44,10 +44,10 @@ Directory structure
 🔑 Step 1: Prepare Credentials and Update compose.yaml
 
 🔐 ProtonVPN
-	1.	Create WireGuard configuration
-Go to the ProtonVPN dashboard, go to “Downloads” menu, and select WireGuard configuration for your preferred server. Then copy the configuration.
-	2.	Update compose.yaml
-Update compose.yaml variables with your WireGuard configuration.
+1.  Create WireGuard configuration
+    Go to the ProtonVPN dashboard, go to “Downloads” menu, and select WireGuard configuration for your preferred server. Then copy the configuration.
+2.  Update compose.yaml
+    Update compose.yaml variables with your WireGuard configuration.
 
 🌐 Tailscale
 	1.	Generate an Auth Key
