@@ -3,7 +3,7 @@ services:
   gluetun:
     image: qmcgaw/gluetun
     container_name: gluetun # change if you need to
-    restart: unless-stopped
+    restart: always
     cap_add:
       - NET_ADMIN
     devices:
@@ -36,7 +36,7 @@ services:
       - tsstate:/state
       - /dev/net/tun:/dev/net/tun
     network_mode: "service:gluetun"
-    restart: unless-stopped
+    restart: always
     environment:
       - TS_HOSTNAME=xxx # named it as you wish
       - TS_AUTHKEY=tskey-auth-xxx # your authkey
