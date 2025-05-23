@@ -35,9 +35,13 @@ Ensure you have the following installed:
 	•	Tailscale
 
 Directory structure
+
 .
+
 ├── gluetun/
+
 ├── compose.yaml
+
 └── README.md
 
 🔑 Step 1: Prepare Credentials and Update compose.yaml
