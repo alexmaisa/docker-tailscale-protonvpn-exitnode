@@ -1,4 +1,4 @@
-# docker-tailscale-protonvpn-exitnode
+# tailscale-protonvpn-exitnode
 This repository provides a docker-compose setup for creating an encrypted VPN connection using Tailscale and ProtonVPN. The configuration allows your containerized applications to route traffic securely through Tailscale and uses ProtonVPN as an exit-node, enabling flexible and private networking across devices and environments.
 
 ## 🔧 Features
@@ -56,3 +56,7 @@ Visit https://login.tailscale.com/admin/settings/authkeys and create an auth key
  Update - TS_AUTHKEY= with Auth Key that generated before.
 
 ▶️ Step 2: Start the Services
+
+1.  First item
+2.  Second item
+3.  Third item
