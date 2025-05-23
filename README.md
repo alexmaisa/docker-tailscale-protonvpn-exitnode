@@ -13,7 +13,7 @@ This repository provides a docker-compose setup for creating an encrypted VPN co
 
 ## 📁 Contents
 
-- docker-compose.yml: Multi-container setup for Gluetun (VPN) and Tailscale.
+- compose.yaml: Multi-container setup for Gluetun (VPN) and Tailscale.
 - tailscale/: Configuration for setting up Tailscale within a container.
 - protonvpn/: OpenVPN or WireGuard credentials and integration scripts for ProtonVPN.
 - README.md: Setup instructions, environment variables, and usage guide.
