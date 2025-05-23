@@ -28,20 +28,17 @@ This repository provides a docker-compose setup for creating an encrypted VPN co
 🧰 Prerequisites
 
 Ensure you have the following installed:
-	•	Docker
-	•	Docker Compose or Portainer
-	•	Active accounts for:
-	•	ProtonVPN
-	•	Tailscale
+- Docker
+- Docker Compose or Portainer
+- Active accounts for:
+  - ProtonVPN
+  - Tailscale
 
 Directory structure
 
 .
-
 ├── gluetun/
-
 ├── compose.yaml
-
 └── README.md
 
 🔑 Step 1: Prepare Credentials and Update compose.yaml
