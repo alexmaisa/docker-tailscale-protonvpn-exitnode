@@ -3,10 +3,15 @@ This repository provides a docker-compose setup for creating an encrypted VPN co
 
 🔧 Features
 🔐 Secure outbound traffic via ProtonVPN (OpenVPN-based or Wireguard-based connection).
+
 🌐 Enable Tailscale exit-node from within a Docker container.
+
 📦 Fully containerized setup using docker-compose.
+
 🧩 Suitable for cloud instances, home labs, or headless environments.
+
 ⚙️ Easily customizable and extensible for other VPN providers*.
+
 🛡️ Ideal for privacy-conscious developers and DevOps professionals.
 
 📁 Contents
