@@ -25,7 +25,7 @@ This repository provides a docker-compose setup for creating an encrypted VPN co
 
 ## 🚀 Installation
 
-🧰 Prerequisites
+### 🧰 Prerequisites
 
 Ensure you have the following installed:
 - Docker
@@ -36,27 +36,23 @@ Ensure you have the following installed:
 
 Directory structure
 
-.
-├── gluetun/
-├── compose.yaml
+.</br>
+├── gluetun/</br>
+├── compose.yaml</br>
 └── README.md
 
 🔑 Step 1: Prepare Credentials and Update compose.yaml
 
 🔐 ProtonVPN
-1.  Create WireGuard configuration
+1.  Create WireGuard configuration\
     Go to the ProtonVPN dashboard, go to “Downloads” menu, and select WireGuard configuration for your preferred server. Then copy the configuration.
-2.  Update compose.yaml
+2.  Update compose.yaml\
     Update compose.yaml variables with your WireGuard configuration.
 
 🌐 Tailscale
-	1.	Generate an Auth Key
-Visit https://login.tailscale.com/admin/settings/authkeys and create an auth key. You may turn on Reusable and Preauthorized options. Save your Auth Key.
-	2.	Update compose.yaml
- Update - TS_AUTHKEY= with Auth Key that generated before.
+1.  Generate an Auth Key\
+    Visit https://login.tailscale.com/admin/settings/authkeys and create an auth key. You may turn on Reusable and Preauthorized options. Save your Auth Key.
+2.  Update compose.yaml\
+    Update - TS_AUTHKEY= with Auth Key that generated before.
 
 ▶️ Step 2: Start the Services
-
-1.  First item
-2.  Second item
-3.  Third item
