@@ -50,9 +50,9 @@ Ensure you have the following installed:
 
 🌐 Tailscale
 1.  Generate an Auth Key\
-    Visit https://login.tailscale.com/admin/settings/authkeys and create an auth key. You may turn on Reusable and Preauthorized options. Save your Auth Key.
+    Visit https://login.tailscale.com/admin/settings/authkeys and create an auth key. You may turn on Reusable option. Save your Auth Key.
 2.  Update compose.yaml\
-    Update - TS_AUTHKEY= with Auth Key that generated before.
+    Update TS_AUTHKEY= with Auth Key that generated before.
 
 ### ▶️ Step 2: Start the Services
 
@@ -60,5 +60,5 @@ Ensure you have the following installed:
 1.  Visit Tailscale Machine\
     Go to https://login.tailscale.com/admin/machines/ and open the machine you just created. Machine's name should be the same with the TS_HOSTNAME you put in compose.yaml.
 2.  Turn on the exit-node\
-    Look for Exit Node in Routing Settings and click Edit. Turn on "Use as exit mode" then save.
+    Look for Exit Node in Routing Settings and click Edit. Turn on "Use as exit mode" then Save.
 3.  Exit node is now ready to use.
