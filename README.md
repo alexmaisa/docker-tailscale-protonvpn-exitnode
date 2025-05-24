@@ -55,3 +55,10 @@ Ensure you have the following installed:
     Update - TS_AUTHKEY= with Auth Key that generated before.
 
 ### ▶️ Step 2: Start the Services
+
+### Step 3: Activate exit-node
+1.  Visit Tailscale Machine\
+    Go to https://login.tailscale.com/admin/machines/ and open the machine you just created from docker. Machine's name should be the same with the TS_HOSTNAME you put in compose.yaml.
+2.  Turn on the exit-node\
+    Look for Exit Node in Routing Settings and click Edit. Turn on "Use as exit mode" then save.
+3.  Exit node is now ready to use.
